@@ -21,7 +21,7 @@ let aTies = 0;
 
 //------ API Config --------------------------------------- //
 // const aCpuApiUrl = "https://rpsdemov1-bad6e5b0eff8bxdc.westus3-01.azurewebsites.net/api/rps/rps";
-const aCpuApiUrl = "";
+const aCpuApiUrl = "https://newapi-czdhcdfmchdcb6ah.westus3-01.azurewebsites.net/api/NewApi/RPSRandom";
 
 ///---------------------- DOM References --------------------------------------------------///
 // Gets the CPU mode button from the HTML
