@@ -20,10 +20,8 @@ let aP2Score = 0;
 let aTies = 0;
 
 //------ API Config --------------------------------------- //
-//Change this in our API endpoint that returns a 
-
-
-const aCpuApiUrl = "https://rpsdemov1-bad6e5b0eff8bxdc.westus3-01.azurewebsites.net/api/rps/rps";
+// const aCpuApiUrl = "https://rpsdemov1-bad6e5b0eff8bxdc.westus3-01.azurewebsites.net/api/rps/rps";
+const aCpuApiUrl = "";
 
 ///---------------------- DOM References --------------------------------------------------///
 // Gets the CPU mode button from the HTML
@@ -228,7 +226,7 @@ function aHandleP1Pick(aChoice) {
         // Get CPU move from our API then play the round. This is replacing the random function in our javascipt
         aGetCpuChoiceFromAPi()
         .then(function (aCpuChoice){
-            
+
             // Play the round immediately using Player 1's choice and CPU's choice
             aPlayRound(aChoice, aCpuChoice);
         });
